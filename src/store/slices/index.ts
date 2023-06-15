@@ -1,7 +1,7 @@
-import meSlice, { meActions } from './me.slice';
+import giphySlice, { giphyActions } from './giphy.slice';
 
-export const Slices = { me: meSlice.reducer };
+export const Slices = { giphy: giphySlice.reducer };
 
 export const Actions = {
-  me: meActions,
+  giphy: giphyActions,
 };
